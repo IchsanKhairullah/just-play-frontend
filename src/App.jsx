@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 // --- GANTI URL INI DENGAN URL FUNCTION APP ANDA ---
-const CATALOG_API_BASE = "https://func-catalog-just-play.azurewebsites.net"; 
-const STREAM_API_BASE = "https://func-stream-just-play.azurewebsites.net";
+const CATALOG_API_BASE = "https://func-catalog-just-play.azurewebsites.net/api"; 
+const STREAM_API_BASE = "https://func-stream-just-play.azurewebsites.net/api";
 
 function App() {
   const [songs, setSongs] = useState([]);
